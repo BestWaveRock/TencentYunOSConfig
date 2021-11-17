@@ -1,0 +1,19 @@
+1. 配置nginx
+    nignx.com下载稳定版nginx：http://nginx.org/en/download.html
+    
+    
+    /usr/local/nginx/sbin/nginx -t
+    /usr/local/nginx/sbin/nginx -c /usr/local/nginx/config/nginx.conf
+    /usr/local/nginx/sbin/nginx -s reload
+    
+2. 下载gitlab搭建
+    https://zhuanlan.zhihu.com/p/62042884
+    
+    gitlab-ctl start
+    gitlab-ctl stop
+    gitlab-ctl restart
+    
+3. 配置域名ssl及nginx代理
+    freessl配置ssh
+    
+    /etc/ssl...
